@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PatientPage"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".store.OrderActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".store.OrderPage"
+            android:exported="false" />
+        <activity android:name=".store.products.Product1"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product2"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product3"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product4"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product5"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product6"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product7"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product8"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product9"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product10"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product11"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product12"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product13"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product14"
+            android:exported="false"/>
+        <activity android:name=".store.products.Product15"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

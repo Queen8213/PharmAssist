@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:id="@+id/iv_deals"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_offer"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txt_dealTitle"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Healing Trio Offer"
+                        android:textColor="@color/turq"
+                        android:textStyle="bold"/>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:src="@drawable/ic_wish_list"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txt_dealType"
+                        android:layout_height="wrap_content"
+                        android:text="Type:\nPremium"
+                        android:textSize="10sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="10dp"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txt_dealStorageLife"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:layout_marginStart="10dp"
+                        android:text="Storage Life:\n12 Months"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    >
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txt_dealsDiscountedPrice"
+                        android:layout_height="wrap_content"
+                        android:text="R 279"
+                        android:textSize="10sp"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="10dp"/>
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/txt_dealOriginalPrice"
+                        android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:text="R 200"
+                        android:layout_marginStart="20dp"
+                        android:textColor="@color/turq"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_dealsDescription"
+                    android:text="Get Gaviscon, ACC-200 and any Tablet for only "
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="5dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_dealsDiscountedPercentage"
+            android:text="39,5% off! "
+            android:textColor="@color/black"
+            android:background="@color/red"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
