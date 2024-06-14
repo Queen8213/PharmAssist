@@ -55,6 +55,15 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+            //link to pharmacies
+        ImageButton image = findViewById(R.id.imagePharm);
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent n = new Intent(MainActivity.this, NearbyPharmacies.class);
+                startActivity(n);
+            }
+        });
 
 
     }
