@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Pharmassist"
         tools:targetApi="31">
+        <activity
+            android:name=".doctorspage.AddPrescription"
+            android:exported="false" />
+        <activity
+            android:name=".doctorspage.DoctorMenu"
+            android:exported="false" />
         <activity
             android:name=".login.LoginPharmacist"
             android:exported="false" />
@@ -38,39 +45,54 @@
         <activity
             android:name=".store.OrderPage"
             android:exported="false" />
-        <activity android:name=".store.products.Product1"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product2"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product3"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product4"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product5"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product6"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product7"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product8"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product9"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product10"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product11"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product12"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product13"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product14"
-            android:exported="false"/>
-        <activity android:name=".store.products.Product15"
-            android:exported="false"/>
-        <activity android:name =".patient.MainActivity"
-            android:exported="false"/>
-
+        <activity
+            android:name=".store.products.Product1"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product2"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product3"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product4"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product5"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product6"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product7"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product8"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product9"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product10"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product11"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product12"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product13"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product14"
+            android:exported="false" />
+        <activity
+            android:name=".store.products.Product15"
+            android:exported="false" />
+        <activity
+            android:name=".patient.MainActivity"
+            android:exported="false" />
         <activity
             android:name=".login.ChooseUser"
             android:exported="true">
@@ -80,7 +102,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.pharmassist.R;
+import com.example.pharmassist.doctorspage.DoctorMenu;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -74,7 +75,7 @@ public class Logindoctor extends AppCompatActivity {
                         // Login successful, proceed with the user ID
                         String userId = user.getId();
                         // Navigate to the next activity
-                        Intent intent = new Intent(Logindoctor.this, ChooseUser.class); // Replace NextActivity with your target activity
+                        Intent intent = new Intent(Logindoctor.this, DoctorMenu.class); // Replace NextActivity with your target activity
                         intent.putExtra("userId", userId);
                         startActivity(intent);
 
