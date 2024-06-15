@@ -72,6 +72,10 @@
             android:exported="false"/>
         <activity android:name=".pharmacy.NearbyPharmacies"
             android:exported="false"/>
+        <activity
+            android:name=".profile.Grid"
+            android:exported="false"/>
+        
 
 
         <activity

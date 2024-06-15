@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text ="Body Mass Index (BMI)"
+        />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint ="BMI"
+        android:layout_marginBottom="20sp"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text ="weight"
+        />
+
+    <EditText
+        android:id="@+id/sur"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint ="Weight"
+        android:layout_marginBottom="20sp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/hei"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text ="Height"
+        />
+
+    <EditText
+        android:id="@+id/sj"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint ="Height"
+        android:layout_marginBottom="20sp"
+        />
+
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text ="Blood Pressure"
+        />
+
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint ="Blood Pressure" />
+
+
+
+</LinearLayout>

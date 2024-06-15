@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Surname"
+            android:textSize="18sp"
+             />
+
+    <EditText
+        android:id="@+id/dateofbirth"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="dd/mm/yyyy"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="gender"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/Contactno"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Contact Number"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/province"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Province"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Addresss"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Medicalaid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Medical aid number"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/BMI"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Body Mass Index"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Weight"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Height"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Height"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/BloodPressure"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Blood Pressure"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Meadialhis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Medical History"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/ongoing"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Ongoing Treatment"
+        android:textSize="18sp" />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

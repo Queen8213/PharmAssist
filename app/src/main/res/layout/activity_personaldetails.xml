@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="N/A"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Surname"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/surname1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Surname"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/D_o_b"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Date of birth"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/D_o_b1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="dd/mm/yyyy"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Gender"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Gender1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Gender"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Contact number"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/number1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Contact Number"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/province"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Province"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/province1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Province"/>
+
+        <EditText
+            android:id="@+id/street"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/street1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Steet"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/medicalainumber"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Medical aid number"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/medicalaid1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Medical aid"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+</ScrollView>
+
