@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pharmassist.R;
 import com.example.pharmassist.pharmacy.NearbyPharmacies;
+import com.example.pharmassist.profile.Grid;
 import com.example.pharmassist.store.OrderPage;
 
 import java.util.ArrayList;
@@ -64,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                Intent n = new Intent(MainActivity.this, NearbyPharmacies.class);
                startActivity(n);
+            }
+        });
+
+        ImageButton image2 = findViewById(R.id.imageProf);
+        image2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent n = new Intent(MainActivity.this, Grid.class);
+                startActivity(n);
             }
         });
 

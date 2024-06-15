@@ -1,10 +1,13 @@
 package com.example.pharmassist.pharmacy;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.core.graphics.Insets;
@@ -14,6 +17,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pharmassist.R;
+import com.example.pharmassist.patient.MainActivity;
+import com.example.pharmassist.store.OrderActivity;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -47,6 +53,7 @@ public class NearbyPharmacies extends AppCompatActivity {
             return insets;
         });
 
+
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         pharmacyList = new ArrayList<>();
@@ -68,6 +75,21 @@ public class NearbyPharmacies extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String newText) {
 
+                return false;
+            }
+        });
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.nav);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                if (item.getItemId() == R.id.back) {
+                    startActivity(new Intent(NearbyPharmacies.this, MainActivity.class));
+                    return true;
+                } else if (item.getItemId() == R.id.forward) {
+                    startActivity(new Intent(NearbyPharmacies.this, OrderActivity.class));
+                    return true;
+                }
                 return false;
             }
         });
@@ -130,4 +152,7 @@ public class NearbyPharmacies extends AppCompatActivity {
             }
         });
     }
+
+
+
 }
