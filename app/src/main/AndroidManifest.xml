@@ -70,6 +70,9 @@
             android:exported="false"/>
         <activity android:name =".patient.MainActivity"
             android:exported="false"/>
+        <activity android:name=".pharmacy.NearbyPharmacies"
+            android:exported="false"/>
+
 
         <activity
             android:name=".login.ChooseUser"

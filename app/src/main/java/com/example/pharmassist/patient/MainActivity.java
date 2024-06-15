@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.pharmassist.R;
+import com.example.pharmassist.pharmacy.NearbyPharmacies;
 import com.example.pharmassist.store.OrderPage;
 
 import java.util.ArrayList;
@@ -61,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
         image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent n = new Intent(MainActivity.this, NearbyPharmacies.class);
-                startActivity(n);
+               Intent n = new Intent(MainActivity.this, NearbyPharmacies.class);
+               startActivity(n);
             }
         });
 
