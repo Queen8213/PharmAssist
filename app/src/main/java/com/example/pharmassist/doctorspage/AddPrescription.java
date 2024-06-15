@@ -10,7 +10,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.pharmassist.R;
-import com.example.pharmassist.login.ChooseUser;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -67,7 +66,7 @@ public class AddPrescription extends AppCompatActivity {
                                     int prescriptionId = modelClass.getPrescription_id();
                                     Toast.makeText(AddPrescription.this, "New prescription sucessfully created you can now add medication to it", Toast.LENGTH_SHORT).show();
 
-                                    Intent intent = new Intent(AddPrescription.this, ChooseUser.class);
+                                    Intent intent = new Intent(AddPrescription.this, AddMedication.class);
                                     intent.putExtra("prescriptionId", prescriptionId);
                                     startActivity(intent);
                                 } else {
