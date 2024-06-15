@@ -6,5 +6,9 @@
     <color name="teal">#00D4AA</color>
     <color name="blue">#00BCD4</color>
     <color name="white_grey">#D8DDDE</color>
-
+    <color name ="turq"> #0097B2 </color>
+    <color name ="light_grey"> #D3D3D3 </color>
+    <color name="red"> #FF0000</color>
+    <color name ="Dark_turq">#009688</color>
+    <color name ="faded_white">#E7E0C3 </color>
 </resources>
