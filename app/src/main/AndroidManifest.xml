@@ -18,6 +18,13 @@
             android:name=".doctorspage.AddMedication"
             android:exported="false" />
         <activity
+            android:name=".doctorspage.AddPrescription"
+            android:exported="false" />
+
+        <activity
+            android:name=".doctorspage.DoctorMenu"
+            android:exported="false" />
+        <activity
             android:name=".login.LoginPharmacist"
             android:exported="false" />
         <activity
